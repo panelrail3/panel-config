@@ -1,0 +1,9 @@
+{
+  "name":"xray-panel-v7",
+  "version":"7.0.0",
+  "private":true,
+  "description":"Independent Xray management panel for Railway",
+  "main":"src/server.js",
+  "scripts":{"start":"node src/server.js","dev":"node --watch src/server.js"},
+  "dependencies":{"better-sqlite3":"^11.8.1","bcryptjs":"^2.4.3","qrcode":"^1.5.4","uuid":"^11.1.0"}
+}
